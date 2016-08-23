@@ -4,14 +4,13 @@
 
 > If you obey all the rules, you miss all the fun. -[Katharine Hepburn](https://en.wikipedia.org/wiki/Katharine_Hepburn)
 
+## Overview 
+
+In this lab, you'll recreate [Simon](https://en.wikipedia.org/wiki/Simon_\(game\)), an electronic game popular in the 1980s. The toy would play a sequence of colors, and you had to press buttons corresponding to the colors in the same order as the sequence given.
 
 ## Simon Says: Do This Lab
 
-Remember the game [Simon](https://en.wikipedia.org/wiki/Simon_\(game\))? Simon was an electronic game popular in the 1980s. The toy would play a sequence of colors, and you had to press buttons corresponding to the colors in the same order as the sequence given.
-
-In this lab, you're going to recreate the game Simon.
-
-Don't worry: Most of the game logic has been written for you. You simply have to design the interface and set up the right Interface Builder outlets and actions to make the game work.
+Most of the game logic has been written for you. You simply have to design the interface and set up the right Interface Builder outlets and actions to make the game work.
 
 Here's what the UI should look like when the game initially loads:
 
