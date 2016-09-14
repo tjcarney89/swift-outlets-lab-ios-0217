@@ -13,12 +13,9 @@
 		5B6220B01CFE22A100E9C769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6220AF1CFE22A100E9C769 /* Assets.xcassets */; };
 		5B6220B31CFE22A100E9C769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6220B11CFE22A100E9C769 /* LaunchScreen.storyboard */; };
 		5B6220BB1CFE22FD00E9C769 /* SimonSaysGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6220BA1CFE22FD00E9C769 /* SimonSaysGame.swift */; };
-		C110E8F39805EF253140D7D5 /* Pods_SimonSaysLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5271EB2CCDABA630C4E5373 /* Pods_SimonSaysLab.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		432A5821595271137EFED37C /* Pods-SimonSaysLabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimonSaysLabTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimonSaysLabTests/Pods-SimonSaysLabTests.release.xcconfig"; sourceTree = "<group>"; };
-		46F7613D2D71A7914708D51B /* Pods-SimonSaysLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimonSaysLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimonSaysLab/Pods-SimonSaysLab.debug.xcconfig"; sourceTree = "<group>"; };
 		5B6220A51CFE22A100E9C769 /* SimonSaysLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonSaysLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6220A81CFE22A100E9C769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B6220AA1CFE22A100E9C769 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,9 +24,6 @@
 		5B6220B21CFE22A100E9C769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B6220B41CFE22A100E9C769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B6220BA1CFE22FD00E9C769 /* SimonSaysGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimonSaysGame.swift; sourceTree = "<group>"; };
-		98142B148E6F0A1AE36436DD /* Pods-SimonSaysLabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimonSaysLabTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimonSaysLabTests/Pods-SimonSaysLabTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9EBA4831F799512EF7990976 /* Pods-SimonSaysLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimonSaysLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimonSaysLab/Pods-SimonSaysLab.release.xcconfig"; sourceTree = "<group>"; };
-		A5271EB2CCDABA630C4E5373 /* Pods_SimonSaysLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimonSaysLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,30 +31,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C110E8F39805EF253140D7D5 /* Pods_SimonSaysLab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03B1640D699F730E1F95D63C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				46F7613D2D71A7914708D51B /* Pods-SimonSaysLab.debug.xcconfig */,
-				9EBA4831F799512EF7990976 /* Pods-SimonSaysLab.release.xcconfig */,
-				98142B148E6F0A1AE36436DD /* Pods-SimonSaysLabTests.debug.xcconfig */,
-				432A5821595271137EFED37C /* Pods-SimonSaysLabTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		5B62209C1CFE22A100E9C769 = {
 			isa = PBXGroup;
 			children = (
 				5B6220A71CFE22A100E9C769 /* SimonSaysLab */,
 				5B6220A61CFE22A100E9C769 /* Products */,
-				03B1640D699F730E1F95D63C /* Pods */,
 				8F1F6BFE58B07F32932F717B /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -90,7 +71,6 @@
 		8F1F6BFE58B07F32932F717B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A5271EB2CCDABA630C4E5373 /* Pods_SimonSaysLab.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,12 +82,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B6220B71CFE22A100E9C769 /* Build configuration list for PBXNativeTarget "SimonSaysLab" */;
 			buildPhases = (
-				EBD1218BF04626DCA04DDEF5 /* 📦 Check Pods Manifest.lock */,
 				5B6220A11CFE22A100E9C769 /* Sources */,
 				5B6220A21CFE22A100E9C769 /* Frameworks */,
 				5B6220A31CFE22A100E9C769 /* Resources */,
-				7644B1164311671308249C97 /* 📦 Embed Pods Frameworks */,
-				7DD7FD79F2A2109D2E135E41 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +107,7 @@
 				TargetAttributes = {
 					5B6220A41CFE22A100E9C769 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -163,54 +141,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		7644B1164311671308249C97 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimonSaysLab/Pods-SimonSaysLab-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7DD7FD79F2A2109D2E135E41 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimonSaysLab/Pods-SimonSaysLab-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EBD1218BF04626DCA04DDEF5 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B6220A11CFE22A100E9C769 /* Sources */ = {
@@ -330,25 +260,25 @@
 		};
 		5B6220B81CFE22A100E9C769 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46F7613D2D71A7914708D51B /* Pods-SimonSaysLab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimonSaysLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.SimonSaysLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5B6220B91CFE22A100E9C769 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EBA4831F799512EF7990976 /* Pods-SimonSaysLab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimonSaysLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.SimonSaysLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

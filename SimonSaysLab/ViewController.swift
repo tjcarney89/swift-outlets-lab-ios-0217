@@ -24,17 +24,17 @@ class ViewController: UIViewController {
 // MARK: - SimonSays Game Methods
 extension ViewController {
     
-    @IBAction func startGameTapped(sender: UIButton) {
-        UIView.transitionWithView(startGameButton, duration: 0.9, options: .TransitionFlipFromBottom , animations: {
-            self.startGameButton.hidden = true
+    @IBAction func startGameTapped(_ sender: UIButton) {
+        UIView.transition(with: startGameButton, duration: 0.9, options: .transitionFlipFromBottom , animations: {
+            self.startGameButton.isHidden = true
             }, completion: nil)
         
         displayTheColors()
     }
     
-    private func displayTheColors() {
-        self.view.userInteractionEnabled = false
-        UIView.transitionWithView(displayColorView, duration: 1.5, options: .TransitionCurlUp, animations: {
+    fileprivate func displayTheColors() {
+        self.view.isUserInteractionEnabled = false
+        UIView.transition(with: displayColorView, duration: 1.5, options: .transitionCurlUp, animations: {
             self.displayColorView.backgroundColor = self.simonSaysGame.nextColor()?.colorToDisplay
             self.displayColorView.alpha = 0.0
             self.displayColorView.alpha = 1.0
@@ -42,7 +42,7 @@ extension ViewController {
                 if !self.simonSaysGame.sequenceFinished() {
                     self.displayTheColors()
                 } else {
-                    self.view.userInteractionEnabled = true
+                    self.view.isUserInteractionEnabled = true
                     print("Pattern to match: \(self.simonSaysGame.patternToMatch)")
                 }
         })
